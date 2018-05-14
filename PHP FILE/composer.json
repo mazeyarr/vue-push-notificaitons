@@ -1,0 +1,12 @@
+{
+    "name": "mazey/push-api",
+    "authors": [
+        {
+            "name": "mazeyarr",
+            "email": "mazeyarr@gmail.com"
+        }
+    ],
+    "require": {
+        "sngrl/php-firebase-cloud-messaging": "dev-master"
+    }
+}

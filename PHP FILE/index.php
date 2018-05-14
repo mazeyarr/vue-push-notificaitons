@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$message->setPriority('high');
 	$message->addRecipient(new Device('fhKLOhk2pmY:APA91bGf_4jmCelmTL951vu68y3wNZ6QLSawQWrVzpBHfhn4knOiN70d4DmgUmdeuj_AuTk7SIp-zPKsuW740fnF6NSdTiQzEVRJ7m41GGKTfFOQAFExCvDHy5Mdw1dTR_xKTkF2nofs'));
 	$message
-	    ->setNotification(new Notification('Model', 'Model is nu online gekomen'))
+	    ->setNotification(new Notification('Model', 'Model is now online!'))
 	    ->setData(['key' => 'value']);
 
 	$response = $client->send($message);
